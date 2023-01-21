@@ -541,7 +541,7 @@ var _datGui = require("dat.gui");
 var _gltfloaderJs = require("three/examples/jsm/loaders/GLTFLoader.js");
 var _planetJpg = require("../img/planet.jpg");
 var _planetJpgDefault = parcelHelpers.interopDefault(_planetJpg);
-const monkeyUrl = new URL(require("edcd28088ded92f5"));
+const monkeyUrl = new URL(require("407dc98ff57bcbee"));
 //import { generateUUID } from 'three/src/math/MathUtils';
 //import { Quaternion } from 'three';
 //GLOBAL VARIABLES------------------------------
@@ -926,7 +926,7 @@ function even_movement() {
  //);
  //world.addContactMaterial(groundBoxContactMat);
 
-},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls.js":"7mqRv","cannon-es":"HCu3b","dat.gui":"k3xQk","three/examples/jsm/loaders/GLTFLoader.js":"dVRsF","../img/planet.jpg":"fMLbZ","edcd28088ded92f5":"fO4Qu","@parcel/transformer-js/src/esmodule-helpers.js":"lPEvZ"}],"ktPTu":[function(require,module,exports) {
+},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls.js":"7mqRv","cannon-es":"HCu3b","dat.gui":"k3xQk","three/examples/jsm/loaders/GLTFLoader.js":"dVRsF","../img/planet.jpg":"fMLbZ","407dc98ff57bcbee":"fO4Qu","@parcel/transformer-js/src/esmodule-helpers.js":"lPEvZ"}],"ktPTu":[function(require,module,exports) {
 /**
  * @license
  * Copyright 2010-2022 Three.js Authors

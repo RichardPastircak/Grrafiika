@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "cannon-es": "^0.20.0",
     "dat.gui": "^0.7.9",
+    "gh-pages": "^5.0.0",
     "three": "^0.147.0"
   }
 }
