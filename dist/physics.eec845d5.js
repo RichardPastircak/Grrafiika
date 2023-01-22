@@ -541,7 +541,7 @@ var _datGui = require("dat.gui");
 var _gltfloaderJs = require("three/examples/jsm/loaders/GLTFLoader.js");
 var _planetJpg = require("../assets/planet.jpg");
 var _planetJpgDefault = parcelHelpers.interopDefault(_planetJpg);
-const monkeyUrl = new URL(require("407dc98ff57bcbee"));
+const monkeyUrl = new URL(require("4eba382bde20b9b9"));
 //import { generateUUID } from 'three/src/math/MathUtils';
 //import { Quaternion } from 'three';
 //GLOBAL VARIABLES------------------------------
@@ -926,7 +926,7 @@ function even_movement() {
  //);
  //world.addContactMaterial(groundBoxContactMat);
 
-},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls.js":"7mqRv","cannon-es":"HCu3b","dat.gui":"k3xQk","three/examples/jsm/loaders/GLTFLoader.js":"dVRsF","../img/planet.jpg":"fMLbZ","407dc98ff57bcbee":"fO4Qu","@parcel/transformer-js/src/esmodule-helpers.js":"lPEvZ"}],"ktPTu":[function(require,module,exports) {
+},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls.js":"7mqRv","cannon-es":"HCu3b","dat.gui":"k3xQk","three/examples/jsm/loaders/GLTFLoader.js":"dVRsF","@parcel/transformer-js/src/esmodule-helpers.js":"lPEvZ","../assets/planet.jpg":"iQg42","4eba382bde20b9b9":"5mbKe"}],"ktPTu":[function(require,module,exports) {
 /**
  * @license
  * Copyright 2010-2022 Three.js Authors
@@ -44447,8 +44447,8 @@ function buildNodeHierarchy(nodeId, parentObject, json, parser) {
     return newGeometry;
 }
 
-},{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"lPEvZ"}],"fMLbZ":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("f2eg4") + "planet.6b54d1c4.jpg" + "?" + Date.now();
+},{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"lPEvZ"}],"iQg42":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("f2eg4") + "planet.9a457596.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"5feIE"}],"5feIE":[function(require,module,exports) {
 "use strict";
@@ -44484,8 +44484,8 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"fO4Qu":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("f2eg4") + "classroom.8cfe3722.glb" + "?" + Date.now();
+},{}],"5mbKe":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("f2eg4") + "classroom.7a612868.glb" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"5feIE"}]},["4UVcw","c6dUj"], "c6dUj", "parcelRequire9610")
 

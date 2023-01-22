@@ -7,7 +7,7 @@ import { ConvexPolyhedron, Plane, Vec3 } from 'cannon-es';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 import image4 from '../assets/planet.jpg';
-const monkeyUrl = new URL('../img/classroom.glb', import.meta.url);
+const monkeyUrl = new URL('../assets/classroom.glb', import.meta.url);
 
 //import { generateUUID } from 'three/src/math/MathUtils';
 //import { Quaternion } from 'three';
