@@ -539,7 +539,7 @@ var _cannonEs = require("cannon-es");
 var _datGui = require("dat.gui");
 //import { GLTFLoader } from '../js/examples/jsm/loaders/GLTFLoader.js';
 var _gltfloaderJs = require("three/examples/jsm/loaders/GLTFLoader.js");
-var _planetJpg = require("../img/planet.jpg");
+var _planetJpg = require("../assets/planet.jpg");
 var _planetJpgDefault = parcelHelpers.interopDefault(_planetJpg);
 const monkeyUrl = new URL(require("407dc98ff57bcbee"));
 //import { generateUUID } from 'three/src/math/MathUtils';
@@ -676,7 +676,7 @@ function init() {
     //Background
     const textureLoader = new _three.TextureLoader();
     // var loader = new THREE.GLTFLoader();
-    // loader.load( '../img/classroom.glb', function ( gltf )
+    // loader.load( '../assets/classroom.glb', function ( gltf )
     // {
     //     sword = gltf.scene;  // sword 3D object is loaded
     //     sword.scale.set(2, 2, 2);
