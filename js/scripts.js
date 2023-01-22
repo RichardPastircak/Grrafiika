@@ -6,7 +6,7 @@ import { ConvexPolyhedron, Plane, Vec3 } from 'cannon-es';
 //import { GLTFLoader } from '../js/examples/jsm/loaders/GLTFLoader.js';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 
-import image4 from '../img/planet.jpg';
+import image4 from '../assets/planet.jpg';
 const monkeyUrl = new URL('../img/classroom.glb', import.meta.url);
 
 //import { generateUUID } from 'three/src/math/MathUtils';
@@ -180,7 +180,7 @@ function init(){
     const textureLoader = new THREE.TextureLoader();
     
     // var loader = new THREE.GLTFLoader();
-    // loader.load( '../img/classroom.glb', function ( gltf )
+    // loader.load( '../assets/classroom.glb', function ( gltf )
     // {
     //     sword = gltf.scene;  // sword 3D object is loaded
     //     sword.scale.set(2, 2, 2);
